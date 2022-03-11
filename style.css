@@ -9,6 +9,7 @@ body {
   max-width: 1920px;
   margin: auto;
   background-color: #f6f8fd;
+  font-family: "Inter", sans-serif;
 }
 
 .navbar {
@@ -31,7 +32,6 @@ body {
   font-size: 20px;
   padding-left: 10%;
   padding-right: 10%;
-  font-family: "Inter", sans-serif;
   cursor: pointer;
 }
 .links a {
@@ -53,7 +53,6 @@ body {
   height: 50px;
   border-radius: 10px;
   border: none;
-  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 20px;
   transition: 0.2s ease;
@@ -76,13 +75,11 @@ body {
   padding-right: 50px;
 }
 .first-container h1 {
-  font-family: "Inter", sans-serif;
   font-size: 60px;
   padding-top: 100px;
   width: 100%;
 }
 .first-container h2 {
-  font-family: "Inter", sans-serif;
   font-size: 45px;
   color: #377dff;
   padding-bottom: 5px;
@@ -93,7 +90,6 @@ body {
   line-height: 40px;
   color: #cdcdcd;
   width: 500px;
-  font-family: "Inter";
 }
 .first-container button {
   background-color: #377dff;
@@ -101,7 +97,6 @@ body {
   padding: 16px 36px;
   border-radius: 10px;
   border: none;
-  font-family: "Inter", sans-serif;
   margin-top: 5px;
   font-weight: 700;
   font-size: 20px;
@@ -124,13 +119,11 @@ body {
   background-color: #0d1123;
   color: #fff;
   text-align: center;
-  font-family: "Inter", sans-serif;
 }
 .second-container-imgs {
   display: flex;
   justify-content: center;
   gap: 10px;
-  font-family: "Inter", sans-serif;
 }
 .wave {
   background-color: #0d1123;
@@ -256,14 +249,12 @@ body {
   font-size: 20px;
   line-height: 30px;
   width: 60%;
-  font-family: "Inter", sans-serif;
   text-align: center;
   margin: auto;
   margin-bottom: 50px;
 }
 
 .e-commerce {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -278,7 +269,6 @@ body {
   margin-top: 50px;
 }
 .third-container h2 {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -290,7 +280,6 @@ body {
   color: #377dff;
 }
 .underline-black-style {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -304,7 +293,6 @@ body {
 }
 
 .third-text {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -345,7 +333,6 @@ body {
 }
 
 .fourth-container h2 {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -359,7 +346,6 @@ body {
 
 .fourth-container p {
   width: 580px;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -391,7 +377,6 @@ body {
   padding: 16px 36px;
   border-radius: 10px;
   border: none;
-  font-family: "Inter", sans-serif;
   margin-top: 5px;
   font-weight: 700;
   font-size: 20px;
@@ -410,7 +395,6 @@ body {
 }
 
 .fifth-container h2 {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -424,7 +408,6 @@ body {
 
 .fifth-container p {
   width: 580px;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -448,7 +431,6 @@ body {
 }
 
 .sixth-container h2 {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -460,7 +442,6 @@ body {
 }
 
 .sixth-container p {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -496,7 +477,6 @@ body {
 }
 .seventh-container h2 {
   position: relative;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -508,7 +488,6 @@ body {
 .underline-black-style-global {
   margin-top: 80px;
   margin-left: 130px;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -524,7 +503,6 @@ body {
   position: relative;
   margin-top: 30px;
   margin-left: 130px;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -538,7 +516,6 @@ body {
   align-content: center;
 }
 .seventh-container-numbers h2 {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -546,7 +523,6 @@ body {
   color: #377dff;
 }
 .seventh-container-numbers p {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -555,7 +531,6 @@ body {
   margin-left: 150px;
 }
 .seventh-container-numbers span {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -568,7 +543,6 @@ body {
   padding: 16px 36px;
   border-radius: 10px;
   border: none;
-  font-family: "Inter", sans-serif;
   margin-top: 5px;
   font-weight: 700;
   font-size: 20px;
@@ -584,6 +558,7 @@ body {
 .eighth-container {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 .eighth-container .underline-black-style {
   text-align: center;
@@ -591,7 +566,6 @@ body {
 
 .eighth-container h2 {
   text-align: center;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -604,14 +578,24 @@ body {
 }
 .questions-container {
   display: flex;
-  border: 1px solid black;
   margin-top: 30px;
 }
 .answer {
-  width: 580px;
-  height: 116px;
-  border: 1px solid black;
+  width: 35rem;
+  height: 6rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+.answer p {
+  margin-left: 10px;
+}
+.answer i {
+  margin: auto;
 }
 .answer-container {
   align-items: center;
+  margin-left: 10px;
 }
