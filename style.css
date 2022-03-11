@@ -484,6 +484,9 @@ body {
   margin-top: 80px;
   margin-left: 130px;
 }
+.globus {
+  width: 42vw;
+}
 .underline-black-style-global {
   margin-top: 80px;
   margin-left: 130px;
@@ -983,11 +986,51 @@ body {
     width: 95vw;
     margin-bottom: 10px;
   }
+  .seventh-container .underline-black-style {
+    margin-top: 0px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .seventh-container p {
+    margin-left: 10px;
+  }
+  .seventh-container h2 {
+    margin-left: 10px;
+    font-size: 36px;
+    line-height: 44px;
+    width: 90vw;
+  }
+  .seventh-container {
+    display: flex;
+    flex-direction: column;
+  }
   .index-finger {
     position: absolute;
     top: 4725px;
   }
   .sixth-container {
     height: 400px;
+  }
+  .eighth-container h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .eighth-container .underline-black-style {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .questions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .answer {
+    width: 80vw;
+    height: 15vw;
+    font-size: 16px;
+  }
+  .elipse-img {
+    width: 50vw;
   }
 }
