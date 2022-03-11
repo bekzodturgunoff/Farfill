@@ -474,7 +474,7 @@ body {
   background-color: #fff;
   justify-content: space-between;
 }
-.seventh-container h2 {
+.seventh-heading-2 {
   position: relative;
   font-style: normal;
   font-weight: 700;
@@ -486,7 +486,10 @@ body {
 }
 .globus {
   width: 42vw;
+  display: flex;
+  margin-top: auto;
 }
+
 .underline-black-style-global {
   margin-top: 80px;
   margin-left: 130px;
@@ -513,30 +516,25 @@ body {
 }
 .seventh-container-numbers {
   display: flex;
-  text-align: center;
-  align-items: center;
-  align-content: center;
+  flex-direction: row;
+  justify-content: center;
 }
 .seventh-container-numbers h2 {
-  font-style: normal;
-  font-weight: 700;
   font-size: 48px;
   line-height: 73px;
   color: #377dff;
 }
 .seventh-container-numbers p {
-  font-style: normal;
-  font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   color: #828997;
-  margin-left: 150px;
 }
 .seventh-container-numbers span {
-  font-style: normal;
-  font-weight: 700;
   font-size: 20px;
   line-height: 73px;
+}
+.seventh-container div {
+  margin: auto;
 }
 .contact-us-btn-seven {
   position: relative;
@@ -939,6 +937,10 @@ body {
     font-size: 12px;
     line-height: 20px;
   }
+  .third-container img {
+    width: 40vh;
+    height: 40vh;
+  }
   .third-container .underline-black-style {
     font-size: 12px;
     line-height: 24px;
@@ -999,6 +1001,22 @@ body {
     font-size: 36px;
     line-height: 44px;
     width: 90vw;
+  }
+  .seventh-container-numbers {
+    display: flex;
+    flex-direction: column;
+  }
+  .seventh-container-numbers h2 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .seventh-container-numbers span {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .seventh-container-numbers p {
+    font-size: 12px;
+    line-height: 20px;
   }
   .seventh-container {
     display: flex;
