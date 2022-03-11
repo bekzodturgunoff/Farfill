@@ -743,7 +743,6 @@ body {
   display: none;
 }
 .big-img {
-  width: 60vw;
 }
 @media (max-width: 1432px) {
   .links {
@@ -802,6 +801,7 @@ body {
   .footer-wave {
     height: 100px;
   }
+
   .first-container {
     margin: 0px;
     padding: 10px;
@@ -824,6 +824,7 @@ body {
   }
   .first-container img {
     margin: auto;
+    width: 50vw;
   }
   .first-container button {
     padding: 12px 16px;
@@ -902,5 +903,91 @@ body {
   .fifth-container {
     display: flex;
     flex-direction: column;
+  }
+  .learn-more {
+    padding: 12px 16px;
+    font-size: 16px;
+  }
+  .sixth-container {
+    display: flex;
+    flex-direction: column;
+    width: 343px;
+    height: 468px;
+    margin-bottom: 300px;
+  }
+  .sixth-container h2 {
+    margin-left: 10px;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .sixth-container p {
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .sixth-img {
+    position: absolute;
+    top: 5000px;
+  }
+  .sixth-img img {
+    width: 80vw;
+  }
+  .third-text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .third-container .underline-black-style {
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .fourth-container {
+    padding-left: 10px;
+  }
+  .fourth-container h2 {
+    font-size: 36px;
+    line-height: 44px;
+    width: 90vw;
+  }
+  .fourth-container img {
+    width: 95vw;
+  }
+  .fourth-container p {
+    font-size: 12px;
+    line-height: 20px;
+    width: 90vw;
+  }
+  .fourth-container .underline-black-style {
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .fifth-container {
+    padding-left: 10px;
+  }
+  .fifth-container .underline-black-style {
+    margin-top: 0px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .fifth-container h2 {
+    font-size: 36px;
+    line-height: 44px;
+    width: 90vw;
+  }
+  .fifth-container p {
+    font-size: 12px;
+    line-height: 20px;
+    width: 90vw;
+  }
+  .fifth-container img {
+    align-items: center;
+    width: 95vw;
+    margin-bottom: 10px;
+  }
+  .index-finger {
+    position: absolute;
+    top: 4725px;
+  }
+  .sixth-container {
+    height: 400px;
   }
 }
