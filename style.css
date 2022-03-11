@@ -10,9 +10,9 @@ body {
   background-color: #f6f8fd;
   font-family: "Inter", sans-serif;
 }
-* {
+/* * {
   outline: 1px solid red;
-}
+} */
 
 .navbar {
   display: flex;
