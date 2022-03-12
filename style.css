@@ -96,6 +96,10 @@ body {
 p {
   position: relative;
 }
+.nav-toggle {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
 .wave {
   background-color: #0d1123;
   width: 100%;
@@ -625,7 +629,9 @@ p {
   );
   transform: rotate(180deg);
 }
-
+.nav-toggle-close {
+  display: none;
+}
 @media (max-width: 375px) {
   .logo {
     margin: auto;
@@ -642,6 +648,9 @@ p {
     align-items: center;
     background-color: #0d1123;
     padding: 18px;
+  }
+  .nav-toggle-close {
+    display: none;
   }
   .links {
     display: none;
@@ -772,6 +781,9 @@ p {
     align-items: center;
     background-color: #0d1123;
     padding: 18px;
+  }
+  .nav-toggle-close {
+    display: none;
   }
   .links {
     display: none;
