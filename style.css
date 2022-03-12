@@ -11,7 +11,6 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-
 /* * {
   outline: 1px solid red;
 } */
@@ -363,7 +362,6 @@ p {
   padding-left: 2vw;
 }
 
-
 .sixth-img {
   width: 24vw;
   border-radius: 1vw;
@@ -379,7 +377,7 @@ p {
 .sixth-container span {
   color: rgba(62, 69, 103, 0.8);
 }
-.sixth-container button{
+.sixth-container button {
   position: relative;
   left: 2.8vw;
   top: 1vw;
@@ -388,7 +386,7 @@ p {
   position: relative;
   padding: 0px;
   border-radius: 1vw;
-  top: -27px;
+  top: -1.4vw;
   width: 6vw;
 }
 
