@@ -33,7 +33,7 @@ body {
 
 .links {
   display: flex;
-  gap: 5rem;
+  gap: 2vw;
   font-size: 1.2vw;
 }
 .links a {
@@ -49,7 +49,7 @@ body {
   color: #fff;
   width: 9vw;
   height: 2.5vw;
-  border-radius: 0.5rem;
+  border-radius: 0.5vw;
   border: none;
   font-weight: 700;
   font-size: 1vw;
@@ -91,7 +91,7 @@ p {
 .wave {
   background-color: #0d1123;
   width: 100%;
-  height: 350px;
+  height: 25vw;
   clip-path: polygon(
     100% 0%,
     0% 0%,
@@ -231,7 +231,7 @@ p {
   color: #fff;
   width: 9vw;
   height: 2.5vw;
-  border-radius: 0.5rem;
+  border-radius: 0.5vw;
   border: none;
   font-weight: 700;
   font-size: 1vw;
@@ -273,7 +273,8 @@ p {
 
 .third-container h2,
 .fourth-container h2,
-.fifth-container h2 {
+.fifth-container h2,
+.seventh-container-heading {
   font-weight: 700;
   font-size: 4vw;
   line-height: 1.1em;
@@ -292,14 +293,15 @@ p {
 .third-text,
 .second-container-text,
 .fourth-text,
-.fifth-text {
+.fifth-text,
+.seventh-container-text {
   font-weight: 400;
   font-size: 1.4vw;
-  line-height: 2em;
+  line-height: 1.5em;
   color: #cdcdcd;
   width: 36vw;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 .underline-black-style {
   font-style: normal;
@@ -318,14 +320,14 @@ p {
   flex-direction: row;
   padding: 1vw 3vw;
   background: rgba(55, 125, 255, 0.2);
-  border-radius: 10px;
+  border-radius: 0.8vw;
   border: none;
   color: #377dff;
   transition: 0.2s ease;
   align-items: center;
-  gap: 5px;
-  font-size: 20px;
-  width: 150px;
+  gap: 0.3vw;
+  font-size: 1vw;
+  width: 8vw;
   text-decoration: none;
 }
 .fourth-container,
@@ -349,7 +351,7 @@ p {
   width: 60vw;
   height: 20vw;
   margin: auto;
-  border-radius: 1vw;
+  border-radius: 0.8vw;
   margin-top: 4vw;
   background-color: #d9e6ff;
 }
@@ -379,15 +381,53 @@ p {
 }
 .sixth-container button {
   position: relative;
-  left: 2.8vw;
-  top: 1vw;
+  left: 2vw;
+  top: 2vw;
 }
 .index-finger {
   position: relative;
   padding: 0px;
   border-radius: 1vw;
-  top: -1.4vw;
-  width: 6vw;
+  width: 4.5vw;
+}
+
+.seventh-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3vw;
+}
+
+.seventh-text {
+  padding-top: 5vw;
+  padding-left: 8vw;
+}
+.seventh-container-numbers {
+  display: flex;
+  margin-top: 2vw;
+}
+.seventh-container-numbers h2 {
+  color: #377dff;
+  font-size: 3vw;
+}
+.seventh-container-numbers span {
+  font-size: 1vw;
+}
+.seventh-container-numbers p {
+  font-size: 0.9vw;
+}
+.years {
+  width: 8vw;
+}
+.eighth-container{
+  
+}
+.question-container{
+  display: flex;
+  justify-content: space-between;
+}
+.answer{
+  display: flex;
+
 }
 
 .footer {
@@ -413,7 +453,7 @@ p {
 .footer-wave {
   background-color: #0d1123;
   width: 100%;
-  height: 350px;
+  height: 25vw;
   clip-path: polygon(
     100% 0%,
     0% 0%,
