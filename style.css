@@ -634,6 +634,9 @@ p {
     width: 30vw;
     height: 10vw;
   }
+  .second-process {
+    display: block;
+  }
   .navbar {
     display: flex;
     align-items: center;
@@ -760,6 +763,9 @@ p {
   .logo img {
     width: 30vw;
     height: 10vw;
+  }
+  .second-process {
+    display: block;
   }
   .navbar {
     display: flex;
