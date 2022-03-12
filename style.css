@@ -444,10 +444,7 @@ p {
 .years {
   width: 8vw;
 }
-.eighth-container {
-  display: flex;
-  justify-content: center;
-}
+
 .eighth-container h2 {
   text-align: center;
   margin: auto;
@@ -642,6 +639,7 @@ p {
   }
   .second-process {
     display: block;
+    margin: auto;
   }
   .navbar {
     display: flex;
@@ -771,6 +769,22 @@ p {
     width: 40vw;
     margin-top: 2vw;
   }
+  .questions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+  .eighth-container {
+    width: 100%;
+  }
+  .answer {
+    width: 90vw;
+    height: 10vw;
+    margin-bottom: 3vw;
+    font-size: 3vw;
+  }
+
   .third-container,
   .fifth-container,
   .first-container,
@@ -800,6 +814,8 @@ p {
   }
   .second-process {
     display: block;
+    margin: auto;
+    width: 70vw;
   }
   .navbar {
     display: flex;
@@ -933,6 +949,22 @@ p {
     line-height: 1.1em;
     width: 40vw;
     margin-top: 2vw;
+  }
+
+  .questions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+  .eighth-container {
+    width: 100%;
+  }
+  .answer {
+    width: 90vw;
+    height: 10vw;
+    margin-bottom: 3vw;
+    font-size: 3vw;
   }
   .third-container,
   .fifth-container,
