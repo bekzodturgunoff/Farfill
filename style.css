@@ -685,6 +685,7 @@ p {
   .answer{
     width: 80vw;
     height: 5vw;
+    font-size: 0.8rem;
   }
 }
 
