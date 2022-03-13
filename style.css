@@ -672,7 +672,7 @@ p {
     top: -30vw;
   }
   .seventh-container {
-    height: 990px;
+    height: 1010px;
   }
   .seventh-container-text {
     width: 80vw;
@@ -681,6 +681,10 @@ p {
     display: flex;
     flex-direction: column;
     gap: 0;
+  }
+  .answer{
+    width: 80vw;
+    height: 5vw;
   }
 }
 
