@@ -214,14 +214,6 @@ body {
   display: block;
 }
 
-.hero-left p {
-  color: var(--gray-200);
-  max-width: 45ch;
-  font-size: var(--text-lg);
-  margin-top: 0.8rem;
-  margin-bottom: 1.6rem;
-}
-
 .heading-style {
   font-size: var(--text-5xl);
   color: var(--blue-600);
@@ -231,11 +223,12 @@ body {
 }
 
 .paragraph-text {
-  color: var(--gray-200);
+  color: var(--gray-500);
   max-width: 45ch;
   font-size: var(--text-lg);
   margin-top: 0.8rem;
   margin-bottom: 1.6rem;
+  line-height: 1.5rem;
 }
 .second-process {
   display: none;
@@ -305,6 +298,40 @@ body {
   display: flex;
   justify-content: center;
 }
+.div-six {
+  width: 60vw;
+  height: 21vw;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #d9e6ff;
+  border-radius: var(--rounded-lg);
+  margin: auto;
+  margin-top: 5rem;
+}
+.btn-six {
+  margin-top: 4rem ;
+  margin-left: 0.4vw;
+}
+.sixth-img {
+  width: 24.9vw;
+}
+
+.index-finger {
+  border-radius: var(--rounded-lg);
+}
+.sixth-img {
+  border-radius: var(--rounded-lg);
+}
+
+.heading-small {
+  padding-top: 50px;
+  padding-left: 25px;
+}
+.paragraph-small {
+  padding-top: 20px;
+  padding-left: 25px;
+}
 
 @media (max-width: 768px) {
   .second-process {
@@ -315,10 +342,9 @@ body {
   }
 
   .third-process {
-    margin-left: auto;
-    width: 90vw;
+    margin: auto;
+    width: 100%;
   }
-  .third-process,
   .fourth-process,
   .fifth-process {
     width: 70vw;
