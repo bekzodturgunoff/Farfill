@@ -1,17 +1,19 @@
-const navToggle = document.querySelector(".nav-toggle");
-const navClose = document.querySelector(".nav-toggle-close");
-const navLinks = document.querySelector(".links");
+const hamBtn = document.querySelector(".header-hamburger");
+const closeBtn = document.querySelector(".header-close");
+const nav = document.querySelector(".nav");
 
 const onMenuOpen = () => {
-  navLinks.classList.add("active");
-  navClose.classList.add("active");
+  nav.classList.add("active");
+  closeBtn.classList.add("active");
+  document.body.classList.add("no-scroll");
 };
 
 const onMenuClose = () => {
-  navLinks.classList.remove("active");
-  navClose.classList.remove("active");
+  nav.classList.remove("active");
+  closeBtn.classList.remove("active");
+  document.body.classList.remove("no-scroll");
 };
 
-navToggle.addEventListener("click", onMenuOpen);
+hamBtn.addEventListener("click", onMenuOpen);
 
-navClose.addEventListener("click", onMenuClose);
+closeBtn.addEventListener("click", onMenuClose);

@@ -4,289 +4,141 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
+    <link rel="stylesheet" href="./style.css" />
     <title>Farfill</title>
   </head>
   <body>
-    <div class="navbar">
-      <button class="nav-toggle-close">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          stroke-width="2"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M6 18L18 6M6 6l12 12"
-          />
-        </svg>
-      </button>
+    <div class="container">
+      <header class="header">
+        <div class="header-container">
+          <button class="header-close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+          <a href="/">
+            <img
+              src="./imgs/Farfill-Logo-Light.png"
+              width="100"
+              alt="farfill logo"
+            />
+          </a>
+          <nav class="nav">
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Use cases</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Technology</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+            <button class="btn btn-primary nav-btn">Contact us</button>
+          </nav>
+          <button class="header-hamburger">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </div>
+      </header>
+      <main class="main">
+        <section class="hero">
+          <div class="hero-container">
+            <section class="hero-left">
+              <h1>Farfill <span>Where Ship Happens</span></h1>
+              <p>
+                Effortless e-commerce fulfilment for consumer brands. Should you
+                want to take your indie brand Global or whether you require
+                access to every marketplace out there or just seamless
+                packaging, you have our unwavering support.
+              </p>
+              <button class="btn btn-primary">Contact us</button>
+            </section>
+            <section class="hero-right">
+              <img src="./imgs/Frame 126.png" alt="" />
+            </section>
+          </div>
+        </section>
+      </main>
 
-      <button class="nav-toggle">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          stroke-width="2"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M4 6h16M4 12h16M4 18h16"
-          ></path>
-        </svg>
-      </button>
-
-      <div class="logo"><img src="./imgs/Farfill-Logo-Light.png" alt="" /></div>
-
-      <div class="links">
-        <a href="#">About us </a>
-        <a href="#">Use cases</a>
-        <a href="#">Pricing</a>
-        <a href="#">Technology</a>
-        <a href="#">Services</a>
-        <a href="#">FAQs</a>
-      </div>
-
-      <button class="contact-btn-nav">Contact us</button>
-    </div>
-
-    <div class="first-container">
-      <div class="text-container">
-        <h1>Farfill</h1>
-        <h2>Where Ship Happens</h2>
-        <p class="first-text">
-          Effortless e-commerce fulfillment for consumer brands. Should you want
-          to take your indie brand Global or whether you require access to every
-          marketplace out there or just seamless packaging, you have our
-          unwavering support.
-        </p>
-        <button class="contact-us-btn">Contact us</button>
-      </div>
-
-      <img src="./imgs/Frame 126.png" alt="" />
-    </div>
-
-    <div class="second-container">
-      <div>
-        <p class="e-commerce">e-commerce fulfillment process</p>
-        <h2>How it works</h2>
-        <p class="second-container-text">
-          We specialize in ecommerce fulfillment so that you can get on with
-          running your business. We receive and put away your product
-          efficiently, expertly manage your inventory and get orders to your
-          customers at exactly the right moment.
-        </p>
-      </div>
-      <!-- <img src="./imgs/Frame 21.png" alt="" style="margin-bottom: 50px" /> -->
-      <img class="first-process" src="./imgs/process.svg" alt="" />
-      <img class="second-process" src="./imgs/process-2.svg" alt="" />
-    </div>
-    <div class="wave"></div>
-
-    <div class="third-container">
-      <div class="third-container-text">
-        <p class="underline-black-style">Technology</p>
-        <h2>Ecommerce fulfillment <span>software</span></h2>
-        <p class="third-text">
-          We’ve partnered with the best to galvanise our technology. Using
-          Storfox, get deep insight into your inventory and reporting on key
-          events is critical in running an effective operation. What was picked,
-          what was packed or what went out 33 hours ago, we’re big believers in
-          process and investing in the right technology stack. Plug straight
-          into your cart or if you’ve got a little more complex we’ve made it
-          easy with our APIs
-        </p>
-        <a class="learn-more" href="#">
-          Learn more <i class="fa fa-arrow-right-long"></i>
-        </a>
-      </div>
-
-      <div class="third-process-div">
-        <img class="third-process" src="./imgs/Frame 111.png" />
-      </div>
-    </div>
-
-    <div class="fourth-container">
-      <img class="fourth-process" src="./imgs/Frame 112.png" />
-      <div>
-        <p class="underline-black-style">The popular eCommerce platforms</p>
-        <h2>Plug into multiple <span>marketplaces</span></h2>
-        <p class="fourth-text">
-          While the juggernauts slug it out to come out on top, it’s no secret
-          that getting your product srange into new channels is a great way to
-          acquire new customers, whilst driving increased visibility of your
-          brand. Farfill allows you to plug into multiple marketplaces, from
-          listing to Amazon prep, we’d love to help
-        </p>
-        <a class="learn-more" href="#">
-          Learn more <i class="fa fa-thin fa-arrow-right-long"></i>
-        </a>
-      </div>
-    </div>
-
-    <div class="fifth-container">
-      <div>
-        <p class="underline-black-style">Pricing and Services</p>
-        <h2><span>Life</span> is in the details</h2>
-        <p class="fifth-text">
-          Custom packaging, gift wrapping, kitting or returns handling, we
-          provide a bevy of different services and are happy to tailor new ones
-          to fit your business.
-        </p>
-        <a class="learn-more" href="#"
-          >Learn more <i class="fa fa-thin fa-arrow-right-long"></i>
-        </a>
-      </div>
-      <img class="fifth-process" src="./imgs/Group 20059.png" alt="" />
-    </div>
-    <div class="fifth-btn">
-      <button class="contact-us-btn">Contact us</button>
-    </div>
-    <div class="sixth-container">
-      <div>
-        <h2>Ship Actually Happens</h2>
-        <p class="sixth-text">
-          We’re partnered with with the most trusted couriers <br />
-          <span>Do you want to get to your customer the same day?</span><br />
-          Next day or even in a week's time.
-        </p>
+      <section class="section-two two">
         <div>
-          <button class="contact-us-btn sixth-btn">Contact us now</button>
+          <p class="primary-style-underline">e-commerce fulfillment process</p>
+          <h2 class="heading-style">How it works</h2>
+          <p class="paragraph-text">
+            We specialize in ecommerce fulfillment so that you can get on with
+            running your business. We receive and put away your product
+            efficiently, expertly manage your inventory and get orders to your
+            customers at exactly the right moment.
+          </p>
         </div>
-
-        <img class="index-finger" src="./imgs/index-finger.png" alt="" />
-      </div>
-      <div class="sixth-img">
-        <img class="sixth-img" src="./imgs/Group 20139.png" alt="" />
-      </div>
+        <img class="first-process" src="./imgs/process.svg" alt="" />
+        <img class="second-process" src="./imgs/process-2.svg" alt="" />
+      </section>
     </div>
-
-    <div class="seventh-container">
-      <img class="elipse-img" src="./imgs/Ellipse 121.png" alt="" />
-      <div class="seventh-text">
-        <p class="underline-black-style">Global</p>
-
-        <h2 class="seventh-container-heading">Reliability</h2>
-
-        <p class="seventh-container-text">
-          Over the last seven years, we have evolved from being the epicentre of
-          eCommerce in the Middle East at JadoPado, which in time, was acquired
-          by noon. Materialising the fulfilment incline at Farfill, our quest
-          commanded our doors to open to the United Kingdom. We breathe, eat and
-          have apprehended e-commerce for over a decade. Move goods between the
-          United Kingdom and GCC with ease.
-        </p>
-
-        <button class="contact-us-btn seventh-btn">Contact us now</button>
-
-        <div class="seventh-container-numbers">
-          <div class="years">
-            <h2>10<span>years</span></h2>
-            <p>of experience</p>
-          </div>
-
-          <div class="years">
-            <h2>99.5K</h2>
-            <p>customer service</p>
-          </div>
-        </div>
-      </div>
-
-      <img class="globus" src="./imgs/Globus.png" alt="" />
+    <div class="wave">
+      <img src="./imgs/wave.svg" alt="" />
     </div>
-    <div class="eighth-container">
-      <div>
-        <p class="underline-black-style">FAQ</p>
-        <h2>Frequently Asked <span>Questions</span></h2>
-        <div class="questions-container">
-          <div class="answer-container">
-            <div class="answer">
-              <p>What is Farfill? <i class="fa fa-thin fa-angle-right"></i></p>
-            </div>
-            <div class="answer">
-              <p>
-                How does Farfill work with marketplaces?
-                <i class="fa fa-thin fa-angle-right"></i>
-              </p>
-            </div>
-            <div class="answer">
-              <p>
-                What else can Farfill do?
-                <i class="fa fa-thin fa-angle-right"></i>
-              </p>
-            </div>
-          </div>
+    
+    <div class="container-two">
+      <main class="main-two">
 
-          <div class="answer-container">
-            <div class="answer">
-              <p>
-                What services does Farfill provide?
-                <i class="fa fa-thin fa-angle-right"></i>
-              </p>
-            </div>
-            <div class="answer">
-              <p>
-                Can Farfill distribute my products?
-                <i class="fa fa-thin fa-angle-right"></i>
-              </p>
-            </div>
-            <div class="answer">
-              <p>
-                How does Farfill work with marketplaces?
-                <i class="fa fa-thin fa-angle-right"></i>
-              </p>
-            </div>
+        <section class="section-three three">
+          <div>
+            <p class="primary-style-underline">Technology</p>
+            <h2 class="heading-style">
+              Ecommerce fulfillment <span class="sapn-style">software</span>
+            </h2>
+            <p class="paragraph-text">
+              We’ve partnered with the best to galvanise our technology. Using
+              Storfox, get deep insight into your inventory and reporting on key
+              events is critical in running an effective operation. What was
+              picked, what was packed or what went out 33 hours ago, we’re big
+              believers in process and investing in the right technology stack.
+              Plug straight into your cart or if you’ve got a little more
+              complex we’ve made it easy with our APIs
+            </p>
+            <a class="learn-more" href="#">
+              Learn more <i class="fa fa-arrow-right-long"></i>
+            </a>
           </div>
-        </div>
-        <a class="learn-more" href="#"
-          >Learn more <i class="fa fa-thin fa-arrow-right-long"></i>
-        </a>
-      </div>
+          
+            <img class="third-process" src="./imgs/Frame 111.png" />
+          
+        </section>
+      </main>
     </div>
-    <div class="footer-wave"></div>
-    <div class="footer">
-      <div class="footer-img">
-        <img src="./imgs/Farfill-Logo-Light.png" />
-      </div>
-      <div class="footer-links">
-        <a href="#">About us</a>
-        <a href="#">Use Cases</a>
-        <a href="#">Pricing</a>
-        <a href="#">FAQs</a>
-      </div>
-      <div class="img-links">
-        <a href="#"><img src="./imgs/twitter.png" alt="" /></a>
-        <a href="#"><img src="./imgs/Faceook.png" alt="" /></a>
-        <a href="#"><img src="./imgs/instagram.svg" alt="" /></a>
-        <a href="#"><img src="./imgs/Youtube.png" alt="" /></a>
-      </div>
-      <p>© 2022 All Rights Reserved. Farfill</p>
-    </div>
-
-    <script src="./index.js"></script>
+    <footer></footer>
+    <script src="./index.js" defer></script>
   </body>
 </html>
