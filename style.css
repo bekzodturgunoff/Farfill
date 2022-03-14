@@ -418,6 +418,17 @@ img {
 .answer:hover {
   border: 1px solid black;
 }
+.wave-footer {
+  display: flex;
+  justify-content: center;
+}
+.wave-footer img {
+  width: 100%;
+}
+
+footer {
+  background-color: var(--slate-600);
+}
 
 @media (max-width: 1190px) {
   .section-seven {
