@@ -437,10 +437,30 @@ footer {
   background-color: var(--slate-600);
   text-align: center;
 }
+.footer-nav ul {
+  display: flex;
+  list-style-type: none;
+  font-weight: var(--font-semibold);
+  width: 100%;
+  justify-content: center;
+}
+
+.footer-nav ul a {
+  color: white;
+  padding: 1rem;
+  display: block;
+  font-size: var(--text-lg);
+  position: relative;
+  text-decoration: none;
+}
 footer .nav {
   display: flex;
   justify-content: center;
   margin: 2rem;
+}
+
+.footer-img {
+  padding: 1rem;
 }
 
 .footer-paragraph {
@@ -574,6 +594,9 @@ footer .nav {
   .questions-container {
     gap: 0px;
   }
+  .footer-nav ul a {
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -595,7 +618,8 @@ footer .nav {
     flex-direction: row;
     height: 7.5rem;
   }
-  .nav {
+  .nav,
+  .footer-nav {
     position: static;
     opacity: 1;
     z-index: 10;
@@ -605,14 +629,20 @@ footer .nav {
     align-items: center;
     width: auto;
   }
-  .nav ul {
+
+  .nav ul,
+  .footer-nav ul {
     flex-direction: row;
     width: auto;
   }
-  .nav ul a {
+
+  .nav ul a,
+  .footer-nav ul a {
     padding: 0.8rem 1rem;
+    transition: 0.3s ease;
   }
-  .nav ul a:before {
+  .nav ul a:before,
+  .footer-nav ul a:before {
     content: "";
     position: absolute;
     height: 100%;
@@ -621,8 +651,10 @@ footer .nav {
     top: 0;
     left: 0;
     border-bottom: 4px solid transparent;
+    transition: 0.3s ease;
   }
-  .nav ul a:hover::before {
+  .nav ul a:hover::before,
+  .footer-nav ul a:hover::before {
     background: linear-gradient(
       to bottom,
       rgba(55, 125, 255, 0.05) 70%,
